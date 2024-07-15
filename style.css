@@ -68,10 +68,11 @@ body {
 
 .image {
     position: relative;
-    right: 10px; /* Adjust the right value as needed */
+    right: 70px; /* Adjust the right value as needed */
   left: 65px;
     width: 200px;
     height: 200px;
+  margin-right: 20px;
 }
 
 .combine {
@@ -83,5 +84,31 @@ body {
     border-radius: 10px;
     background-color: #f0f0f0;
     padding: 20px; /* Add padding to prevent content overflow */
+}
+#mainbox {
+  display: flex;
+  border: 5px solid red;
+  border-radius: 4px;
+  background-color: lightcyan;
+  overflow: hidden;
+  
+}
+
+#image {
+  border: 3px solid red;
+  border-right: 5px solid red;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#x{
+  max-width: 100%; /* Ensures the image does not exceed the width of the container */
+    height: 100%; /* Allows the image height to adjust proportionally */
+    display: block; /* Ensures proper rendering as a block element */
+  border: 0px black;
+  border-radius: 0px;
 }
 

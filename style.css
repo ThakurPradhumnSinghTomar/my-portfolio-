@@ -87,7 +87,16 @@ body {
 }
 #mainbox {
   display: flex;
-  border: 5px solid red;
+  border: 5px solid aqua;
+  border-radius: 4px;
+  background-color: lightcyan;
+  overflow: hidden;
+  
+}
+
+.mainbox {
+  display: flex;
+  border: 5px solid aqua ;
   border-radius: 4px;
   background-color: lightcyan;
   overflow: hidden;
@@ -95,8 +104,8 @@ body {
 }
 
 #image {
-  border: 3px solid red;
-  border-right: 5px solid red;
+  border: 3px solid aqua;
+  border-right: 5px solid aqua;
 }
 
 #details {
@@ -112,3 +121,7 @@ body {
   border-radius: 0px;
 }
 
+.projects{
+  margin: 10px;
+  
+}

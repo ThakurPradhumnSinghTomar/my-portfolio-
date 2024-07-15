@@ -1,22 +1,23 @@
 /* All below styling is external styling using css */
   h1 {
-    
+    font-family: 'Times New Roman', serif;
             border: 2px solid black; /* Add a black border to all images */
             border-radius: 10px; 
             background-color: blue; /* Set the background color of the h1 element */
             color: white; /* Set the text color of the h1 element */
-             
+             margin: 10px;
     text-align: center; /* Center align the text in the h1 element */
         }
   
-  h2 {
+  h2 {font-family: 'Times New Roman', serif;
             border: 2px solid black; /* Add a black border to all images */
             border-radius: 10px; 
             background-color: green; /* Set the background color of the h1 element */
             color: white; /* Set the text color of the h2 element */
-            text-align: center; /* Center align the text in the h2 element */
+            margin: 10px;
+    text-align: center; /* Center align the text in the h2 element */
         }
-  h3 {
+  h3 {font-family: 'Times New Roman', serif;
             border: 2px solid black; /* Add a black border to all images */
             border-radius: 10px; 
             background-color: yellow; /* Set the background color of the h3 element */
@@ -24,7 +25,7 @@
             text-align: center; /* Center align the text in the h3 element */
         }
   
-  h4 {
+  h4 {font-family: 'Times New Roman', serif;
             border: 2px solid black; /* Add a black border to all images */
             border-radius: 10px; 
             background-color: red; /* Set the background color of the h1 element */
@@ -53,13 +54,34 @@ body {
     text-align: center; /* Center align all text and inline elements */
 }
 
-div{
-  
-   border: 1px solid #ccc;
-   border-radius: 10px;
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin: 20px;
-  
+.name{
+  font-size: 10px;
+  border-radius: 0px;
   
 }
+.details{
+  
+  
+  margin: 10px;
+  
+}
+
+.image {
+    position: relative;
+    right: 10px; /* Adjust the right value as needed */
+  left: 65px;
+    width: 200px;
+    height: 200px;
+}
+
+.combine {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px; /* Add padding to prevent content overflow */
+}
+

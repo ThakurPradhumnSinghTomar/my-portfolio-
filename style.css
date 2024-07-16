@@ -5,6 +5,7 @@
   border: 5px solid black;
   background-color: gainsboro;
   overflow: hidden;
+  
 }
 
 #image {
@@ -69,5 +70,30 @@ body{
   border: 5px solid black;
   margin: 10px;
   
+  background-color: gainsboro;
+}
+
+.upperheadinginsidebox{
+  position: absolute;
+  margin-left: 20%;
   
+  
+  
+}
+
+
+.lowerheadinginsidebox{
+  position: absolute;
+  top: 25px;
+  margin-left: 25%;
+  
+  
+  
+  
+}
+
+.projects img{
+  
+  margin-top: 75px;
+  border-top: 5px solid black;
 }

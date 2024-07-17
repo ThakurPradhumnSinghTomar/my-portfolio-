@@ -99,3 +99,42 @@ body{
   font-weight: 700;
   color: #0d47a1; /* Dark Blue */
 }
+
+@media screen and (max-width: 768px){
+  .projects {
+  position: relative;
+  display: flex;
+    flex-direction: column;
+  top: 130px;
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  margin: 10px;
+  background-color: #ffffff; /* White */
+  border-radius: 20px;
+}
+  
+  #mainbox {
+  position: relative;
+  top: 60px;
+  display: flex;
+    flex-direction: column;
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  background-color:#e3f2fd; /* Light Blue */
+  overflow: hidden;
+  margin: 25px;
+  border-radius: 20px;
+}
+  
+  
+#project {
+  position: absolute;
+  top: 650px;
+  margin-left: 42%;
+  max-width: 400px;
+  min-width: 100px;
+  max-height: 40px;
+  background-color: #ffffff; /* White */
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  margin-bottom: 5px;
+}
+  
+  }

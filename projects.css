@@ -1,0 +1,151 @@
+#mainbox {
+  position: relative;
+  top: 60px;
+  display: flex;
+   
+background-color: rgba(224, 255, 255, 0.5); /* Light Blue */
+  overflow: hidden;
+  margin: 25px;
+  border-radius: 20px;
+}
+
+#image {
+   
+  border-right: 5px solid #0288d1; /*Deep Sky Blue */
+  margin: 20px;
+  border-radius: 20px;
+  
+}
+#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#x {
+  max-width: 100%; /* Ensures the image does not exceed the width of the container */
+  height: 100%; /* Allows the image height to adjust proportionally */
+  display: block; /* Ensures proper rendering as a block element */
+  border-radius: 20px;
+}
+
+li {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: 'Monospace', 'Lucida Console', sans-serif;
+  margin-bottom: 10px;
+  color: black; /* Dark Blue */
+}
+body{
+  background-color: whitesmoke;
+    color: #0d47a1;
+    font-family: 'Arial', sans-serif;
+  
+}
+
+.heading {
+  position: absolute;
+  top: 30px;
+  margin-left: 40%;
+  max-width: 400px;
+  min-width: 100px;
+  height: 30px;
+  background-color: #ffffff; /* White */
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  margin-bottom: 5px;
+}
+.about{
+  margin: 5px;
+}
+
+#project {
+  position: absolute;
+  top: 440px;
+  margin-left: 42%;
+  max-width: 400px;
+  min-width: 100px;
+  max-height: 40px;
+  background-color: #ffffff; /* White */
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  margin-bottom: 5px;
+}
+
+.projects {
+  position: relative;
+  display: inline-block;
+  top: 130px;
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  margin: 10px;
+  background-color: #ffffff; /* White */
+  border-radius: 20px;
+}
+
+.upperheadinginsidebox {
+  position: absolute;
+  margin-left: 20%;
+  color: black; 
+}
+
+.lowerheadinginsidebox {
+  position: absolute;
+  top: 25px;
+  margin-left: 25%;
+  color: #0d47a1; /* Dark Blue */
+}
+
+.projects img {
+  margin-top: 75px;
+  border-top: 5px solid #0288d1; /* Deep Sky Blue */
+}
+
+.projects h3,
+.projects h4 {
+  font-family: 'Monospace', 'Lucida Console', sans-serif;
+  font-weight: 700;
+  color: #0d47a1; /* Dark Blue */
+}
+
+a{
+  
+  color: black;
+  
+  
+}
+
+@media screen and (max-width: 768px){
+  .projects {
+  position: relative;
+  display: flex;
+    flex-direction: column;
+  top: 130px;
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  margin: 10px;
+  background-color: #ffffff; /* White */
+  border-radius: 20px;
+}
+  
+  #mainbox {
+  position: relative;
+  top: 60px;
+  display: flex;
+    flex-direction: column;
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  background-color:#e3f2fd; /* Light Blue */
+  overflow: hidden;
+  margin: 25px;
+  border-radius: 20px;
+}
+  
+  
+#project {
+  position: absolute;
+  top: 650px;
+  margin-left: 40%;
+  max-width: 400px;
+  min-width: 100px;
+  max-height: 40px;
+  background-color: #ffffff; /* White */
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  margin-bottom: 5px;
+}
+  
+}

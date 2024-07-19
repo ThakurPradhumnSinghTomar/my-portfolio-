@@ -55,6 +55,7 @@ body{
 }
 .about{
   margin: 5px;
+  top: 50px;
 }
 
 #project {
@@ -109,6 +110,118 @@ a{
   color: black;
   
   
+}
+
+.button {
+    display: flex;
+   /* padding: 10px 20px;  /* adjust padding as needed */
+    font-size: 16px; /* adjust font size as needed */
+    color: #fff; /* text color */
+    background-color: #007bff; /* button background color */
+    border: none; /* removes default border */
+    border-radius: 5px; /* optional: rounds corners */
+    align-items: center;
+  justify-content: center;
+  /* centers text */
+    text-decoration: none; /* removes underline from the link */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* optional: adds shadow */
+    transition: background-color 0.3s; /* smooth transition for hover effect */
+  
+  
+}
+
+.button:hover {
+    background-color: #0056b3; /* changes background color on hover */
+}
+
+.buttons{
+  display: grid;
+  position: relative;
+  top: 50px;
+  
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 40px 40px 40px 40px;
+  
+  column-gap: 50px;
+  margin-left: 50px;
+  
+  
+}
+
+@media screen and (max-width: 768px){
+  
+  .button {
+    display: flex;
+   /* padding: 10px 20px;  /* adjust padding as needed */
+    font-size: 16px; /* adjust font size as needed */
+    color: #fff; /* text color */
+    background-color: #007bff; /* button background color */
+    border: none; /* removes default border */
+    border-radius: 5px; /* optional: rounds corners */
+    align-items: center;
+  justify-content: center;
+  /* centers text */
+    text-decoration: none; /* removes underline from the link */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* optional: adds shadow */
+    transition: background-color 0.3s; /* smooth transition for hover effect */
+  
+  
+}
+
+.button:hover {
+    background-color: #0056b3; /* changes background color on hover */
+}
+
+.buttons{
+  display: grid;
+  position: relative;
+  top: 50px;
+  
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 40px 40px 40px 40px;
+  
+  column-gap: 50px;
+  margin-left: 50px;
+  
+  
+}
+  .projects {
+  position: relative;
+  display: flex;
+    flex-direction: column;
+  top: 130px;
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  margin: 10px;
+  background-color: #ffffff; /* White */
+  border-radius: 20px;
+}
+  
+  #mainbox {
+  position: relative;
+  top: 60px;
+  display: flex;
+    flex-direction: column;
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  background-color:#e3f2fd; /* Light Blue */
+  overflow: hidden;
+  margin: 25px;
+  border-radius: 20px;
+}
+  
+  
+#project {
+  position: absolute;
+  top: 650px;
+  margin-left: 40%;
+  max-width: 400px;
+  min-width: 100px;
+  max-height: 40px;
+  background-color: #ffffff; /* White */
+  border: 5px solid #0288d1; /* Deep Sky Blue */
+  margin-bottom: 5px;
+}
+  
+  }
 }
 
 @media screen and (max-width: 768px){

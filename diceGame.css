@@ -1,0 +1,104 @@
+.container {
+            display: grid;
+  position: relative;
+  top: 20rem;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px; /* optional, for spacing between boxes */
+  margin: 20px;
+  background-color: lightcyan;
+  border-radius: 20px;
+  border: 0px solid blue;
+  border-right: 6px solid lightblue;
+  border-left:  6px solid lightblue;
+  justify-content: center;
+  align-items: center;
+  
+        }
+
+.box{
+  
+  margin: 20px;
+  margin-top: 20px;
+}
+
+
+.btn1{
+  display: flex;
+   /* padding: 10px 20px;  /* adjust padding as needed */
+    font-size: 16px; /* adjust font size as needed */
+    color: #fff; /* text color */
+    background-color: #007bff; /* button background color */
+    border: none; /* removes default border */
+    border-radius: 5px; /* optional: rounds corners */
+    align-items: center;
+  justify-content: center;
+  /* centers text */
+    text-decoration: none; /* removes underline from the link */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* optional: adds shadow */
+    transition: background-color 0.3s; /* smooth transition for hover effect */
+   height: 40px;
+  
+}
+
+.btn2{
+  display: flex;
+   /* padding: 10px 20px;  /* adjust padding as needed */
+    font-size: 16px; /* adjust font size as needed */
+    color: #fff; /* text color */
+    background-color: #007bff; /* button background color */
+    border: none; /* removes default border */
+    border-radius: 5px; /* optional: rounds corners */
+    align-items: center;
+  justify-content: center;
+  /* centers text */
+    text-decoration: none; /* removes underline from the link */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* optional: adds shadow */
+    transition: background-color 0.3s; /* smooth transition for hover effect */
+   height: 40px;
+  
+}
+
+img {
+  margin-left: 70px;
+  height: 250px;
+  width: 250px;
+  
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  position: absolute;
+  top: 80rem;
+  margin-left: 170px;
+  
+}
+
+.box{
+  
+  position: relative;
+  top: 100px;
+}
+
+.button {
+    display: flex;
+  flex-direction: column;
+   /* padding: 10px 20px;  /* adjust padding as needed */
+    font-size: 16px; /* adjust font size as needed */
+    color: #fff; /* text color */
+    background-color: #007bff; /* button background color */
+    border: none; /* removes default border */
+    border-radius: 5px; /* optional: rounds corners */
+    align-items: center;
+  justify-content: center;
+  /* centers text */
+    text-decoration: none; /* removes underline from the link */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* optional: adds shadow */
+    transition: background-color 0.3s; /* smooth transition for hover effect */
+  margin-bottom: 5px;
+  
+}
+
+.button:hover {
+    background-color: #0056b3; /* changes background color on hover */
+}

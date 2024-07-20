@@ -7,7 +7,7 @@ function projects() {
             <p class="nameOfProject">Pricing Cards</p>     
         </div>
         <div class="projectImage" id="project1Image">
-            <img src ="./example.jpg">
+            <img src ="./project3preview.jpg">
         </div>
         <a class="button">View</a>
     </div>

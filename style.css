@@ -13,6 +13,7 @@ body {
   display: flex;
   padding: 10px 20px;
   font-size: 16px;
+  font-weight: 500;
   color: #fff;
   background-color: #007bff;
   border: none;
@@ -122,9 +123,63 @@ li {
   margin-left: 15px;
 }
 
+.projectImage img{
+  
+  height: 250px;
+  width: 250px;
+  border: 1px solid blue;
+  
+}
 
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
+#projects{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  background-color: lightcyan;
+  border-radius: 20px;
+  border-right: 6px solid lightblue;
+  border-left: 6px solid lightblue;
+  padding: 0px;
+  
+}
+
+#projects h1{
+  position: absolute;
+  top: 5px;
+  
+  
+}
+
+.project{
+  margin: 10px;
+  margin-top: 120px;
+  
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.projectName{
+  margin: 15px;
+  
+}
+
+.nameOfProject{
+  
+  font-size: 24px;
+  font-size: 700;
+  margin: 0px;
+  margin-top: 10px;
+  background-color: #b6f9fa;
+  border: 2px solid black;
+  color: black;
+  border-radius: 15px;
+  
+}
+
+.project .button{
+  margin: 0px;
+  margin-bottom: 10px;
+  height: 15px;
 }

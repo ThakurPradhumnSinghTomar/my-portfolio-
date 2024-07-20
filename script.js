@@ -7,7 +7,7 @@ function projects() {
             <p class="nameOfProject">Pricing Cards</p>     
         </div>
         <div class="projectImage" id="project1Image">
-            <img src ="./diceGame.jpg">
+            <img src ="./project3preview.jpg">
         </div>
         <a href = "./project3.html" class="button">View</a>
     </div>

@@ -1,0 +1,195 @@
+
+body{
+  background-color: black;
+}
+
+.container1{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.5fr .5fr 1fr 1.3fr .7fr;
+  grid-template-rows: 1fr;
+  
+  
+}
+
+#mainContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+}
+
+#heading2{
+  font-size: 50px;
+  
+}
+.headings{
+  
+  color: white;
+  
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+    
+  font-weight: 900;
+  
+  margin: 10px;
+}
+#heading1{
+  margin-left: 30px;
+  color: red;
+  
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 4px;
+  font-size: 22px;
+  margin: 10px;
+  margin-top: -10px;
+  margin-left: 30px;
+  
+}
+
+#languageSelector{
+  
+  grid-column: 4/4;
+  position: relative;
+  
+  text-align: center;
+  justify-items: center;
+  
+}
+
+#signInbutton{
+  position: relative;
+  top: 18px;
+  height: 30px;
+  width: 75px;
+  margin-left: 20px;
+  
+  
+}
+
+#A{
+  position: absolute;
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 50%, 50% 100%, 0 100%);
+  font-size: 16px;
+  top: -18px;
+  left: 15px;
+}
+
+#AA{
+  position: absolute;
+  
+  top: 12px;
+  color: white;
+  top: -11px;
+  left: 25px;
+}
+
+#AAA{
+  position: absolute;
+  
+  color: white;
+  top: -3px;
+  left: 130px;
+  font-size: 10px;
+}
+
+#setAll{
+  background-color: rgba(80, 81, 82,0.4);
+  height: 30px;
+  
+  position: relative;
+  border: 1px solid whitesmoke;
+  top: 22px;
+  border-radius: 6px;
+  width: 160px;
+  margin: 0px;
+  margin-left: 80px;
+}
+
+#container{
+  
+  background: 
+                radial-gradient(circle at top left, rgba(0, 0, 0, 0.5), transparent 50%),
+                radial-gradient(circle at top right, rgba(0, 0, 0, 0.5), transparent 50%),
+                radial-gradient(circle at bottom left, rgba(0, 0, 0, 0.5), transparent 50%),
+                radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.5), transparent 50%),
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.2) 100%),
+                linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.5) 100%),
+                url('mainBackground.jpg');
+  background-size: 100% 100%, 100% 100%, auto;
+  background-repeat: no-repeat;
+  height: 660px;
+  
+  background-size: cover;
+  margin: 0px;
+  border: 0px solid gray;
+  border-bottom: 10px solid gray;
+}
+
+button{
+  background-color: red;
+  border-radius: 6px;
+  color: white;
+  height: 38px;
+  width: 100px;
+  font-weight: 500;
+  border: none;
+}
+
+
+
+#B{
+  position: absolute;
+  
+  color: white;
+  top: -15px;
+  left: 47px;
+  font-size: 18px;
+}
+
+#yoyo{
+  
+  display: flex;
+}
+
+.paragraph{
+  color: white;
+  font-size: 24px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  
+}
+
+.setAll{
+  background-color: rgba(80, 81, 82,0.4);
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+}
+
+.B{
+  color: white;
+  font-size: 16px;
+  
+}
+
+#Email{
+  width: 400px;
+  
+  
+}
+
+#E{
+  margin: 10px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+#Get{
+  width: 170px;
+  margin-left: 15px;
+  height: 50px;
+}
+
+#paragraphs1{
+  position: absolute;
+}

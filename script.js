@@ -24,12 +24,12 @@ function projects() {
     
     <div class="project" id="project3">
         <div class="projectName" id="project3Name">
-            <p class="nameOfProject">Movie Ranking</p>     
+            <p class="nameOfProject">Netflix Page</p>     
         </div>
         <div class="projectImage" id="project3Image">
-            <img src ="./previewmovie.jpg">
+            <img src ="./netflixPreview.jpg">
         </div>
-        <a href="./movieranking.html" class="button">View</a>
+        <a href="./netflix.html" class="button">View</a>
     </div>
     `;
 }

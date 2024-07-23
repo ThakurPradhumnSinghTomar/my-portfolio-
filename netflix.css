@@ -64,8 +64,14 @@ body{
   height: 30px;
   width: 75px;
   margin-left: 20px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
   
   
+}
+
+#signInbutton: active{
+  background-color: #0056b3;
+            transform: scale(0.95);
 }
 
 #A{
@@ -106,9 +112,251 @@ body{
   width: 160px;
   margin: 0px;
   margin-left: 80px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
 #container{
+  
+  background: 
+                radial-gradient(circle at top left, rgba(0, 0, 0, 0.5), transparent 50%),
+                radial-gradient(circle at top right, rgba(0, 0, 0, 0.5), transparent 50%),
+                radial-gradient(circle at bottom left, rgba(0, 0, 0, 0.5), transparent 50%),
+                radial-gradient(circle at bottom right, rgba(0, 0, 0, 0.5), transparent 50%),
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.2) 100%),
+                linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.5) 100%),
+                url('mainBackground.jpg');
+  background-size: 100% 100%, 100% 100%, auto;
+  background-repeat: no-repeat;
+  height: 660px;
+  
+  background-size: cover;
+  margin: 0px;
+  border: 0px solid gray;
+  border-bottom: 10px solid #3a3a3b;
+}
+
+button{
+  background-color: red;
+  border-radius: 6px;
+  color: white;
+  height: 38px;
+  width: 100px;
+  font-weight: 500;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.button:active {
+            background-color: #0056b3;
+            transform: scale(0.95);
+        }
+
+
+
+#B{
+  position: absolute;
+  
+  color: white;
+  top: -15px;
+  left: 47px;
+  font-size: 18px;
+}
+
+#yoyo{
+  
+  display: flex;
+}
+
+.paragraph{
+  color: white;
+  font-size: 24px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  
+}
+
+.setAll{
+  background-color: rgba(80, 81, 82,0.4);
+  border: 1px solid whitesmoke;
+  border-radius: 6px;
+  
+}
+#setAll:active {
+            background-color: #1e7e34;
+            transform: scale(0.95);
+        }
+
+.B{
+  color: white;
+  font-size: 16px;
+  
+}
+
+#Email{
+  width: 400px;
+  
+  
+}
+
+#E{
+  margin: 10px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+#Get{
+  width: 170px;
+  margin-left: 15px;
+  height: 50px;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+#Get:active {
+            background-color: #1e7e34;
+            transform: scale(0.95);
+        }
+
+#paragraphs1{
+  position: absolute;
+}
+
+#sideImage{
+  height: 300px;
+  width: 400px;
+  
+}
+
+#container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 440px;
+  position: relative;
+  border: none;
+  border-bottom: 10px solid #3a3a3b;
+}
+
+#mainContent2{
+  
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#mainContent2 .headings{
+  
+  font-size: 55px;
+  text-align: left;
+  margin: 0px;
+  margin-top: 100px;
+  margin-left: 25px;
+  
+}
+
+#mainContent2 .paragraph{
+  text-align: left;
+  margin: 0px;
+  margin-left: 25px;
+  font-size: 24px;
+  margin-top: 10px;
+  line-height: 1.5;
+  
+}
+
+#tv{
+  align-items: center;
+  justify-items: center;
+  
+}
+
+#sideImage{
+  margin-top: 25px;
+  margin-left: 40px;
+  position: relative;
+  z-index: 2;
+  
+  
+}
+
+.slideshow {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+  position: absolute;
+  top: 80px;
+  left: 570px;
+  z-index: 1;
+  
+}
+
+.slideshow img {
+    position: absolute;
+    height: 200px;
+  width: 300px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: slide 16s infinite;
+}
+
+.slideshow img:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.slideshow img:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.slideshow img:nth-child(3) {
+    animation-delay: 8s;
+}
+
+.slideshow img:nth-child(4) {
+    animation-delay: 12s;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#container3{
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-bottom: 10px solid #3a3a3b;
+}
+
+#heading4{
+  color: white;
+  
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+    
+  font-weight: 900;
+  
+  margin: 10px;
+  
+}
+
+#mainContent4{
+  border: 1px solid white;
+  
+}
+#sideImage4{
+  border: 1px solid white;
+  
+}
   
   background: 
                 radial-gradient(circle at top left, rgba(0, 0, 0, 0.5), transparent 50%),

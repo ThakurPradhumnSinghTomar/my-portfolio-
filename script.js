@@ -31,9 +31,22 @@ function projects() {
         </div>
         <a href="./netflix.html" class="button">View</a>
     </div>
+
+
+       
+    
+
+
+
     `;
 }
 
 document.querySelector("#projectButton").addEventListener("click", function() {
     projects();
+});
+
+document.getElementById("projectButton").addEventListener("click",function(){
+
+document.getElementById("projects").scrollIntoView({behavior: "smooth"});
+
 });

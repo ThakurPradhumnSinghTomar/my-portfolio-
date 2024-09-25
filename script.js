@@ -37,7 +37,7 @@ function projects() {
             <p class="nameOfProject">Tic Tac Toe Game</p>     
         </div>
         <div class="projectImage" id="project4Image">
-            <img src ="./netflixPreview.jpg">
+            <img src ="project4.png">
         </div>
         <a href="./TicTacToe.html" class="button">View</a>
     </div>

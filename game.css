@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.gameAndMsg{
+ display: flex;
+ flex-direction: row;
+
+}
+
+ .game{
+   position: relative;
+   left: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1.5rem;
+    width: 70vb;
+    margin: 10px;
+    margin-top: 0vh;
+    transition: top 2s ease, left 2s ease; 
+} 
+
+.msg{
+    opacity: 0;
+    transition: opacity 1.5s ease;
+    display: none;
+    font-size: 5rem;
+    font-family: 'Arial','Helvetica',sans-serif;
+    color: #FFFFE0;
+   letter-spacing: 2px;
+   text-shadow:  5px 5px 10px rgba(0,0,0,0.5);
+   max-width: 500px;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 150px;
+   
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.headingBox{
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem;
+   margin: 10px;
+   margin-top: 0rem;
+
+}
+
+.headingBox h1{
+    font-size: 5rem;
+    font-family: 'Arial','Helvetica',sans-serif;
+    color: #FFFFE0;
+   letter-spacing: 2px;
+   text-shadow:  5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.headingBox h5{
+   
+    font-family: 'Arial','Helvetica',sans-serif;
+    color: #FFFFE0;
+   letter-spacing: 2px;
+   text-shadow:  5px 5px 10px rgba(0,0,0,0.5);
+   text-decoration: underline;
+   
+}
+
+.outerMostBox{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+
+
+.game .box{
+    width: 20vb;
+    height: 20vh;
+    border-radius: 1rem;
+    border: 0cap;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    font-size: 3rem;
+}
+
+.box:active{
+background-color: #eaeaea;
+transform: scale(0.95);
+}
+.box:hover{
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10vb;
+    margin-top: 20px;
+}
+
+.button{
+    background-color: antiquewhite;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(108, 25, 25);
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.button:active{
+    background-color: #eaeaea;
+transform: scale(0.95);
+}
+.button:hover{
+    cursor: pointer;
+}

@@ -32,6 +32,16 @@ function projects() {
         <a href="./netflix.html" class="button">View</a>
     </div>
 
+     <div class="project" id="project4">
+        <div class="projectName" id="project4Name">
+            <p class="nameOfProject">Tic Tac Toe Game</p>     
+        </div>
+        <div class="projectImage" id="project4Image">
+            <img src ="./netflixPreview.jpg">
+        </div>
+        <a href="./TicTacToe.html" class="button">View</a>
+    </div>
+
 
        
     

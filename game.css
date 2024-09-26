@@ -17,7 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
-    gap: 1.5rem;
+    gap: 1.2rem;
     width: 70vb;
     margin: 10px;
     margin-top: 0vh;
@@ -30,7 +30,7 @@
     display: none;
     font-size: 5rem;
     font-family: 'Arial','Helvetica',sans-serif;
-    color: #FFFFE0;
+    color: rgb(255, 255, 224);
    letter-spacing: 2px;
    text-shadow:  5px 5px 10px rgba(0,0,0,0.5);
    max-width: 500px;

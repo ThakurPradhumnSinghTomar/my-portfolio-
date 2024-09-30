@@ -6,7 +6,7 @@ let newGame = document.querySelector("#newGame");
 
  turn = "x";
  count=0;
- const mediaQuery = window.matchMedia("(max-width: 500px)");
+ const mediaQuery = window.matchMedia("(max-width: 1500px)");
 
  winnerPatterns = [
     [0,1,2],

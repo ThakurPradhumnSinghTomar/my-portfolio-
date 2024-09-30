@@ -6,6 +6,7 @@ let newGame = document.querySelector("#newGame");
 
  turn = "x";
  count=0;
+ const mediaQuery = window.matchMedia("(max-width: 500px)");
 
  winnerPatterns = [
     [0,1,2],
@@ -51,6 +52,8 @@ let newGame = document.querySelector("#newGame");
  
  const hideWinner = () => {
   var gameBox = document.querySelector(".game");
+
+  
   
   if (gameBox) { // Check if gameBox exists
       gameBox.style.position = "relative"; // Ensure the position is relative
@@ -79,6 +82,7 @@ let newGame = document.querySelector("#newGame");
  const showDraw =  () => {
   var gameBox = document.querySelector(".game");
     
+  if (!mediaQuery.matches) { 
     if (gameBox) { // Check if gameBox exists
         gameBox.style.position = "relative"; // Ensure the position is relative
         
@@ -92,6 +96,7 @@ let newGame = document.querySelector("#newGame");
     } else {
       console.error("Element with class 'game' not found.");
     }
+  }
 
     var message=document.querySelector(".msg");
       message.textContent =   "Game Draw ";
@@ -107,7 +112,7 @@ let newGame = document.querySelector("#newGame");
  
  const showWinner = (winner,a,b,c) => {
     var gameBox = document.querySelector(".game");
-    
+    if (!mediaQuery.matches) { 
     if (gameBox) { // Check if gameBox exists
         gameBox.style.position = "relative"; // Ensure the position is relative
         
@@ -121,7 +126,8 @@ let newGame = document.querySelector("#newGame");
     } else {
       console.error("Element with class 'game' not found.");
     }
-
+  }
+  
     var message=document.querySelector(".msg");
       message.textContent =   "Congratulations "+ winner +" Is Winner  ";
     message.style.display = "flex";
